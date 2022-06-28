@@ -1,0 +1,121 @@
+body{
+    background-image:url(../images/5556661.jpg);
+}
+header{
+    background-color: rgb(12, 1, 30);
+    position: sticky;
+    top: 0;
+}
+.logo-name{
+    font-family: 'Fredoka One', cursive;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.nav-element, .logo-title{
+    color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.nav-element:hover{
+    background-color: rgb(22, 1, 54);;
+    
+}
+
+.page-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.music-play{
+    background-color: rgb(197, 184, 218);
+    box-shadow: 8px 8px 5px rgb(12, 1, 30) ;
+    cursor: pointer;
+
+}
+
+.music-play:hover{
+    background-color: rgb(254, 254, 255);
+    
+    
+}
+.left{
+    background-color: rgba(49, 3, 119, 0.991); 
+
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.side-heading{
+    font-family: 'Slabo 27px', serif;
+}
+.side-content{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.right-container h1{
+    font-family: 'Dancing Script', cursive;
+    size: 100px;
+    
+}
+
+.heading-content{
+    font-family: 'Lobster', cursive;
+}
+
+.bottom{
+    /* position: sticky;
+    bottom: 0; */
+    background-color: rgb(10, 1, 24);
+    height: 100px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progress-bar{
+    width: 80%;
+    cursor: pointer;
+ 
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    display: flex;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+#gif{
+    margin-right: 10px;
+}
