@@ -119,3 +119,12 @@ header{
 #gif{
     margin-right: 10px;
 }
+
+
+@media(max-width:1025px){
+    .left-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
